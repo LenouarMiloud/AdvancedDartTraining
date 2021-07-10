@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AdvancedDartTraining.iml" filepath="$PROJECT_DIR$/AdvancedDartTraining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RunProcesses.iml" filepath="$PROJECT_DIR$/RunProcesses.iml" />
     </modules>
   </component>
 </project>

@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../:\IdeaProjects\AdvancedDartTraining\.idea/dataSources/
+/../../../../../:\IdeaProjects\AdvancedDartTraining\OSVariables\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
