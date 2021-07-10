@@ -6,4 +6,5 @@ Created from templates made available by Stagehand under a BSD-style
 ## Advanced Dart Training 
 ------------------------------
 
-1. [OSVariables Training](https://github.com/LenouarMiloud/AdvancedDartTraining/blob/master/bin/OSVariables.dart) 
+1. [OS Variables](https://github.com/LenouarMiloud/AdvancedDartTraining/tree/master/OSVariables)
+2. [Run Processes](https://github.com/LenouarMiloud/AdvancedDartTraining/tree/master/RunProcesses) 
