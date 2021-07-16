@@ -5,7 +5,7 @@ import 'package:path/path.dart' as p;
 
 main(List<String> arguments) {
 
-  List<String> files = new List<String>();
+  List<String> files = new List();
   Directory.current.listSync().forEach((FileSystemEntity fse) {
     if(fse.statSync().type == FileSystemEntityType.FILE) files.add(fse.path);
   });
