@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'dart:convert';
 import 'package:archive/archive.dart';
+import 'package:archive/archive_io.dart';
 import 'package:path/path.dart' as p;
 
 main(List<String> arguments) {
@@ -14,7 +15,7 @@ main(List<String> arguments) {
 
   zip(files, zipfile);
 
-  //unzip(zipfile, '/F/decompressed');
+  unzip(zipfile, '/F/decompressed');
 
 }
 
