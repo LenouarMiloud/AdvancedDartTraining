@@ -17,5 +17,4 @@ void main(List<String> arguments) {
   print(hash);
   print(base64.encode(hash));
 
-
 }
