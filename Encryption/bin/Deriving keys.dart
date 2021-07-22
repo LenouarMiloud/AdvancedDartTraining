@@ -5,7 +5,7 @@ import 'package:pointycastle/pointycastle.dart';
 
 void main(List<String> args){
     String password = "Hack The Box";
-    var hackString = createUint8listFromString('hacKtheboxnow');
+    var hackString = createUint8listFromString('Hack The Box Now');
     //the list of algorithm
     var pkcs = new KeyDerivator("SHA-1/HMAC/PBKDF2");
 
