@@ -8,7 +8,7 @@ main(List<String> arguments) {
 
   print('how many random number you want to generate');
   int randomNumber = int.parse(stdin.readLineSync());
-  
+
   print('Your Random Numbers are :');
   print(randomBytes(randomNumber));
 
