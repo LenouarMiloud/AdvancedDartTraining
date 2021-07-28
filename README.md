@@ -12,4 +12,6 @@ Created from templates made available by Stagehand under a BSD-style
 4. [TimerCallback](https://github.com/LenouarMiloud/AdvancedDartTraining/tree/master/TimerCallback)
 5. [Await](https://github.com/LenouarMiloud/AdvancedDartTraining/tree/master/await)
 6. [Compression](https://github.com/LenouarMiloud/AdvancedDartTraining/tree/master/compression)
-7. [ZipFile](https://github.com/LenouarMiloud/AdvancedDartTraining/tree/master/ZipFile) 
+7. [ZipFile](https://github.com/LenouarMiloud/AdvancedDartTraining/tree/master/ZipFile)
+8. [Encryption](https://github.com/LenouarMiloud/AdvancedDartTraining/tree/master/Encryption)
+9. [Socket](https://github.com/LenouarMiloud/AdvancedDartTraining/tree/master/Socket)
