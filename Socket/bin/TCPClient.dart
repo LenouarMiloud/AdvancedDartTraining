@@ -2,11 +2,12 @@ import 'dart:io';
 import 'dart:convert';
 
 void main(List<String> arguments) async {
-  var serverSocket = await ServerSocket.bind("127.0.0.1", 3000);
+  var clientSocket = await Socket.connect("127.0.0.1", 3000);
 
   print('Connected');
-  socket.write("Hello Miloud From Client TCP");
+  clientSocket.write("Hello Miloud From Client TCP");
   print('Sent, closing');
-  await socket.close();
+  await clientSocket.close();
   print('Closed');
   exit(0);
+  }
