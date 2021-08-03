@@ -1,15 +1,24 @@
-import 'dart:async';
-import 'package:mysql1/mysql1.dart';
+import 'dart:io';
+import 'package:sqljocky5/constants.dart';
+import 'package:sqljocky5/sqljocky.dart';
+import 'package:sqljocky5/utils.dart';
 
-Future main(List<String> arguments) async {
-  final conn = await MySqlConnection.connect(ConnectionSettings(
-      host: 'localhost',
-      port: 3306,
-      user: 'root',
-      db: 'myDataBase',
-      password: ''));
+main(List<String> arguments) async {
+	//create a Connection Pool 
+  var pool = new ConnectionPool(
+    host: 'localhost',
+    port: 3306,
+    user: 'fsociety',
+    password: 'myPass',
+    db: 'university',
+    max: 10
+  );
 
-  // create our table
-  await conn.query(
-      'CREATE TABLE users (id int NOT NULL AUTO_INCREMENT PRIMARY KEY, name varchar(255), email varchar(255), age int)');
+  //selecting from teachers table
+  var results = await pool.query('Select * from teachers');
+  //show the number of rows 
+  print('Results ${await results.length} rows');
+  //close the connection
+  pool.closeConnectionsNow();
+  exit(0);
 }
